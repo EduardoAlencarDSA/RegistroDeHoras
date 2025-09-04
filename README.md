@@ -4,14 +4,14 @@ Requer iOS 17+ e Xcode 15+.
 
 #Screenshots
 
-###Lista de Registros
+### Lista de Registros
 <img src="Screenshots/listRegister.png" width="300">
 
-###Formulário de Novo Registro
+### Formulário de Novo Registro
 <img src="Screenshots/addHours.png" width="300">
 
-###Icone do App
+### Icone do App
 <img src="Screenshots/icon.png" width="300">
 
-###Página Principal
+### Página Principal
 <img src="Screenshots/homePage.png" width="300">
