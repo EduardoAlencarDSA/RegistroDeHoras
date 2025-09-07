@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3C406BCD2E64AA6400A6E126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C406BCC2E64AA6400A6E126 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3C406BAA2E5E749D00A6E126 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		3C406B992E5E749C00A6E126 /* RegistroDeHoras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegistroDeHoras.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C406BA92E5E749D00A6E126 /* RegistroDeHorasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegistroDeHorasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C406BB32E5E749D00A6E126 /* RegistroDeHorasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegistroDeHorasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C406BCC2E64AA6400A6E126 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		3C406B902E5E749B00A6E126 = {
 			isa = PBXGroup;
 			children = (
+				3C406BCC2E64AA6400A6E126 /* LaunchScreen.storyboard */,
 				3C406B9B2E5E749C00A6E126 /* RegistroDeHoras */,
 				3C406BAC2E5E749D00A6E126 /* RegistroDeHorasTests */,
 				3C406BB62E5E749D00A6E126 /* RegistroDeHorasUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C406BCD2E64AA6400A6E126 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

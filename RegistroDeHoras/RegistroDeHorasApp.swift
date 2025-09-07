@@ -1,32 +1,12 @@
-//
-//  RegistroDeHorasApp.swift
-//  RegistroDeHoras
-//
-//  Created by Eduardo Alencar on 26/08/2025.
-//
-
 import SwiftUI
 import SwiftData
 
 @main
-struct RegistroDeHorasApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+struct RegistrodeHorasApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(for: WorkEntry.self) // SwiftData local
     }
 }
